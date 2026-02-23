@@ -3,8 +3,13 @@ from update_barang import update_barang
 from hapus_barang import hapus_barang
 
 def main():
-    # TODO: buat loop menu dengan input pilihan 1-5
-    #aku
+    while True:
+        print("="*5 + "Sistem Investaris Toko" + "="*5)
+        print("1. Tambah Item")
+        print("2. Lihat Item")
+        print("3. Update Item")
+        print("4. Hapus Item")
+        print("5. Keluar")
     pass
 
 if __name__ == "__main__":
