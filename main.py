@@ -5,12 +5,27 @@ from hapus_barang import hapus_barang
 def main():
     while True:
         print("="*5 + "Sistem Investaris Toko" + "="*5)
-        print("1. Tambah Item")
-        print("2. Lihat Item")
-        print("3. Update Item")
-        print("4. Hapus Item")
+        print("1. Tambah Barang")
+        print("2. Lihat Barang")
+        print("3. Update Barang")
+        print("4. Hapus Barang")
         print("5. Keluar")
-    pass
+
+        pilihan = input("Pilih menu: ")
+
+        if pilihan == '1':
+            tambah_barang()
+        elif pilihan == '2':
+            lihat_barang()
+        elif pilihan == '3':
+            update_barang()
+        elif pilihan == '4':
+            hapus_barang()
+        elif pilihan == '5':
+            break
+        else:
+            print("Pilihan salah!")
+
 
 if __name__ == "__main__":
     main()
