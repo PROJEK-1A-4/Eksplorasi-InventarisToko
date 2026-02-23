@@ -25,6 +25,8 @@ def main():
             break
         else:
             print("Pilihan salah!")
+        
+        print("\n")
 
 
 if __name__ == "__main__":
