@@ -3,7 +3,7 @@ data_inventaris = [
         "id": "001",
         "nama": "Pensil",
         "jumlah": 100,
-        "harga": 2000
+        "harga": 2500
     },
     {
         "id": "002", 
