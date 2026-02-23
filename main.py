@@ -1,6 +1,7 @@
-from tambah_barang import tambah_barang, lihat_barang
+from tambah_barang import tambah_barang
 from update_barang import update_barang
 from hapus_barang import hapus_barang
+from lihat_barang import lihat_barang
 
 def main():
     while True:
