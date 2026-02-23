@@ -4,7 +4,7 @@ from hapus_barang import hapus_barang
 
 def main():
     while True:
-        print("="*5 + "Sistem Investaris Toko" + "="*5)
+        print("="*5 + " " + "Sistem Investaris Toko" + " " + "="*5)
         print("1. Tambah Barang")
         print("2. Lihat Barang")
         print("3. Update Barang")
