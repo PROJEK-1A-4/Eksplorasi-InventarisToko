@@ -4,7 +4,7 @@ from hapus_barang import hapus_barang
 
 def main():
     # TODO: buat loop menu dengan input pilihan 1-5
-    #test
+    #aku
     pass
 
 if __name__ == "__main__":
