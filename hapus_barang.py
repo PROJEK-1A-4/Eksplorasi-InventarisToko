@@ -9,3 +9,5 @@ def hapus_barang(id):
             print("Barang Berhasil dihapus!")
             return 
     print("Barang tidak ditemukan!") 
+    
+    #
