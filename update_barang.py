@@ -12,3 +12,9 @@ from database import data_inventaris def update_barang(id, nama_baru=None, jumla
     # Jika harga_baru diberikan, update field 'harga' 
     if harga_baru is not None: 
         barang['harga'] = harga_baru
+    # Tampilkan hasil update ke user 
+    print("Barang berhasil diupdate!") 
+    print(f"Id: {barang['id']}, Nama: {barang['nama']}, Jumlah: {barang['jumlah']}, Harga: {barang['harga']}") 
+    return 
+    # Jika ID tidak ditemukan, tampilkan pesan error 
+    print("Barang dengan ID tersebut tidak ditemukan!")
