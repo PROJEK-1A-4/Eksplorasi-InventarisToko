@@ -5,7 +5,7 @@ from lihat_barang import lihat_barang
 
 def main():
     while True:
-        print("="*5 + " " + "Sistem Investaris Toko" + " " + "="*5)
+        print("="*5 + " " + "Sistem Inventaris Toko" + " " + "="*5)
         print("1. Tambah Barang")
         print("2. Lihat Barang")
         print("3. Update Barang")
@@ -15,7 +15,7 @@ def main():
         pilihan = input("Pilih menu: ")
 
         if pilihan == '1':
-            tambah_barang()
+            tambah_barang()    
         elif pilihan == '2':
             lihat_barang()
         elif pilihan == '3':
@@ -23,12 +23,12 @@ def main():
         elif pilihan == '4':
             hapus_barang()
         elif pilihan == '5':
+            print("Terima kasih, sampai jumpa!")
             break
         else:
-            print("Pilihan salah!")
-        
-        print("\n")
+            print("Pilihan tidak valid, coba lagi!")
 
+        print("\n")
 
 if __name__ == "__main__":
     main()

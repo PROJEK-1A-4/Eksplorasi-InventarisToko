@@ -1,6 +1,11 @@
 from database import data_inventaris as data
 
-def tambah_barang(id, nama, jumlah, harga):
+def tambah_barang():  
+    id = input("Masukkan ID barang: ")
+    nama = input("Masukkan nama barang: ")
+    jumlah = int(input("Masukkan jumlah barang: "))
+    harga = int(input("Masukkan harga barang: "))
+    
     barang_baru = {
         "id": id,
         "nama": nama,
